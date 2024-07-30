@@ -11,6 +11,6 @@ const firebaseConfig = {
   appId: process.env.VITE_APP_ID
 };
 
-const app = initializeApp(firebaseConfig);
-const database = getFirestore(app);
-const auth = getAuth(app)
+export const app = initializeApp(firebaseConfig);
+export const database = getFirestore(app);
+export const auth = getAuth(app)
